@@ -1,0 +1,49 @@
+.pic{
+    background-image: url(./image/burger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.bg{
+    background-color: #d3d214;
+}
+
+.contact-form {
+        max-width: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+.bi{
+    background-color: red;
+}
+
+    .text-shiny {
+        font-size: 44px;
+        position: relative;
+        animation: shine 2s infinite alternate;
+    }
+
+    @keyframes shine {
+        0% {
+            opacity: 0.5;
+            text-shadow: none;
+        }
+        100% {
+            opacity: 1;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+        }
+    }
+
+    
+    .card {
+        transition: transform 0.3s; 
+    }
+
+    .card:hover {
+        transform: scale(1.05); 
+    }
+
+    .card-body {
+        min-height: 200px; 
+    }
